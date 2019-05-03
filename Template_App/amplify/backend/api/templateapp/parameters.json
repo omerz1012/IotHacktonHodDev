@@ -1,4 +1,0 @@
-{
-    "AppSyncApiName": "templateapp",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST"
-}

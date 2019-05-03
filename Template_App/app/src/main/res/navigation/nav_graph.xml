@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/login">
+    app:startDestination="@id/manager">
 
     <fragment
         android:id="@+id/login"
@@ -20,6 +20,9 @@
             app:destination="@+id/createNewAccount"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:popEnterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_login_to_manager"
+            app:destination="@id/manager" />
     </fragment>
     <fragment
         android:id="@+id/forgotPassword"
@@ -32,8 +35,8 @@
         android:label="fragment_create_new_account"
         tools:layout="@layout/fragment_create_new_account" />
     <fragment
-        android:id="@+id/pushNotif"
-        android:name="com.app_name.Fragments.PushNotif"
-        android:label="fragment_push_notif"
-        tools:layout="@layout/fragment_push_notif" />
+        android:id="@+id/manager"
+        android:name="com.app_name.Fragments.Manager"
+        android:label="fragment_manager"
+        tools:layout="@layout/fragment_manager" />
 </navigation>
