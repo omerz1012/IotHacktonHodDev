@@ -1,0 +1,26 @@
+# this is an auto generated file. This will be overwritten
+query GetHacktonHodDev($id: ID!) {
+  getHacktonHodDev(id: $id) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+query ListHacktonHodDevs(
+  $filter: ModelhacktonHodDevFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listHacktonHodDevs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      title
+      content
+      price
+      rating
+    }
+    nextToken
+  }
+}

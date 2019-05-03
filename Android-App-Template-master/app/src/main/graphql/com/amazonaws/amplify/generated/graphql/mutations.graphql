@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateHacktonHodDev($input: CreateHacktonHodDevInput!) {
+  createHacktonHodDev(input: $input) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+mutation UpdateHacktonHodDev($input: UpdateHacktonHodDevInput!) {
+  updateHacktonHodDev(input: $input) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+mutation DeleteHacktonHodDev($input: DeleteHacktonHodDevInput!) {
+  deleteHacktonHodDev(input: $input) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}

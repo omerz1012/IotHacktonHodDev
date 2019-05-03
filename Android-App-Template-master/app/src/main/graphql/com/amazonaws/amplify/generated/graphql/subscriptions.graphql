@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateHacktonHodDev {
+  onCreateHacktonHodDev {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+subscription OnUpdateHacktonHodDev {
+  onUpdateHacktonHodDev {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+subscription OnDeleteHacktonHodDev {
+  onDeleteHacktonHodDev {
+    id
+    title
+    content
+    price
+    rating
+  }
+}

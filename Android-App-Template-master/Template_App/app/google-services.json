@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001788586504",
+    "firebase_url": "https://shazzam-87ac5.firebaseio.com",
+    "project_id": "shazzam-87ac5",
+    "storage_bucket": "shazzam-87ac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001788586504:android:6d3bd6fb0fc07e30",
+        "android_client_info": {
+          "package_name": "com.app_name"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001788586504-uvdh3r6qsr1bm9k7aapnkohi6ib7ceoh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app_name",
+            "certificate_hash": "0b21c5c69d95a636a7827fc4bf1fe1344a737d28"
+          }
+        },
+        {
+          "client_id": "1001788586504-4i15f5u084idv4s0s0n05bqshngg3cgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOgQ_xKqRiQcFwxyp11oML6hUlYwAcI9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001788586504-4i15f5u084idv4s0s0n05bqshngg3cgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

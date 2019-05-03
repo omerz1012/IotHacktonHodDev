@@ -1,0 +1,25 @@
+{
+    "api": {
+        "templateapp": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "securityType": "API_KEY"
+            }
+        }
+    },
+    "auth": {
+        "cognitofb3859c7": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "notifications": {
+        "Shazzam": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}
